@@ -5,8 +5,7 @@ RPG spell/item/monster card generator
 
 preview
 =======
-
-Click [here](https://crobi.github.io/rpg-cards/generator/generate.html) for a live preview of this generator.
+Click [here](https://crobi.github.io/rpg-cards/generator/generate.html) for a live preview of the original generator.
 
 status of the project
 =====================
