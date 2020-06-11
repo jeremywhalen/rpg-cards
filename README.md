@@ -36,6 +36,32 @@ To download these new icons:
 - Run the following commands from the root of the project:
   - `npm install`
   - `node ./resources/tools/update-icons.js`
+  
+Install and configure Angular on Windows 10 PC
+=========  
+1. Configure Node & Angular on Windows (host OS)
+	1. Install latest version of  Node.js (included npm) from: https://nodejs.org/en/
+	2. Install the Angular Command Line interface & update NPM
+		a. Open CMD as Admin
+		b. Update npm to the latest version: npm install -g npm
+		c. Install Angular CLI: npm install -g @angular/cli
+	3. Create a folder to hold your angular apps: 
+		a. Navigate to your local repository folder
+		b. Create App folder
+2. Create a New Angular App
+	1. OpenVS Code
+		a. Navigate to your local repository folder
+		b. Open a terminal: Ctrl+Shift+`
+		c. Create new angular app: ng new my-app
+	2. To develop the app
+		a. Open VS Code
+			i. Open Settings: ctrl+, 
+			ii. Ensure Commonly Used Setting is set to Auto Save with a reasonable delay
+		b. Open a terminal: Ctrl+Shift+`
+			i. Navigate to the my-apps folder: cd angular/my-app
+			ii. Enter: npm start
+		c. Once compile is complete
+Open Chrome and navigate to: http://localhost:4200
 
 
 license
